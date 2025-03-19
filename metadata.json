@@ -1,0 +1,9 @@
+{
+  "name": "TrashTracker",
+  "description": "Backwater Bayou QOL features",
+  "creator": "qtTornado",
+  "entry": "index.js",
+  "version": "0.0.1",
+  "requires": ["PogData"]
+  
+}
