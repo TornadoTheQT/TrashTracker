@@ -79,3 +79,8 @@ const addOne = (idx) => {
     myItems[idx-1] = myItems[idx-1].replace(/: \d+$/, `: ${number+1}`);
     trackerHud.text = myItems.join("");
 }
+
+register("chat", (item, event) => {
+    Client.showTitle(item, ChatLib.getChatMessage(event, true), 2.5, 27.5, 10)
+
+}).setChatCriteria("&r&5⛃ &r&5&lGOOD &r&2&lJUNK&r&5&l CATCH! &r&fYou caught a ${item}&f!&r")
