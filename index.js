@@ -80,7 +80,14 @@ const addOne = (idx) => {
     trackerHud.text = myItems.join("");
 }
 
+//good message title
 register("chat", (item, event) => {
     Client.showTitle(item, ChatLib.getChatMessage(event, true), 2.5, 27.5, 10)
 
 }).setChatCriteria("&r&5⛃ &r&5&lGOOD &r&2&lJUNK&r&5&l CATCH! &r&fYou caught a ${item}&f!&r")
+
+//great message title
+register("chat", (item, event) => {
+    Client.showTitle(item, ChatLib.getChatMessage(event, true), 2.5, 27.5, 10)
+
+}).setChatCriteria("&r&6⛃ &r&6&lGREAT &r&2&lJUNK&r&6&l CATCH! &r&fYou caught a ${item}&f!&r")
