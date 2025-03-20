@@ -4,6 +4,10 @@
   "creator": "qtTornado",
   "entry": "index.js",
   "version": "0.0.1",
+<<<<<<< HEAD
   "requires": ["PogData", "tska"]
+=======
+  "requires": ["PogData"]
+>>>>>>> 2f518bbe243097247538facd44669800450ec3d1
   
 }
